@@ -1,5 +1,5 @@
 {
-  "name": "vue_shop",
+  "name": "Protein",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "element-ui": "^2.4.5",
+    "element-ui": "^2.15.5",
     "qs": "^6.10.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
+    "3dmol": "^1.6.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "^4.5.13",
@@ -29,8 +30,14 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
+    "expose-loader": "^3.0.0",
+    "jquery": "^3.6.0",
+    "jquery-contextmenu": "^2.9.2",
+    "jstree": "^3.3.11",
     "less": "^4.1.1",
     "less-loader": "^5.0.0",
+    "molstar": "^2.2.1",
+    "ngl": "^0.10.4",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
   },
